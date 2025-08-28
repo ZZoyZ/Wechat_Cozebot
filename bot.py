@@ -7,12 +7,12 @@ import uuid
 from wxauto import WeChat
 
 COZE_BASE_URL = "https://api.coze.cn/v3"
-COZE_TOKEN = "patxxxx" # 你的token
+COZE_TOKEN = "pat_xxxx" # 你的token
 COZE_BOT_ID = "xxxxx" # 你bot的id
 USER_ID = "123"  # 固定用户ID
-POLL_INTERVAL = 0.5  # 轮询间隔（秒）
-MAX_POLL_ATTEMPTS = 60  # 最大轮询次数
-GROUP_NAME = "测试"  # 要监听的微信群名称
+GROUP_NAME = "xxx"  # 要监听的微信群名称
+POLL_INTERVAL = 0.5
+MAX_POLL_ATTEMPTS = 60
 
 # 打印函数Print JSON
 def log_json(title, data, is_error=False):
@@ -134,8 +134,8 @@ def main():
         data={
             "目标群名": group_name,
             "检查项": [
-                "微信窗口在桌面可见",
-                "看到提示后再开始使用"
+                "1.微信窗口在桌面可见",
+                "2.看到提示后再开始使用"
             ]
         },
         is_error=False

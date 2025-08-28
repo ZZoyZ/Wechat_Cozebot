@@ -39,6 +39,9 @@ python bot.py
 AI 回答中的 第一张图片 URL 会被自动下载并发送。
 
 ---
+## 🌿 示例
+（用户在群聊里让bot生成时序图）
+![alt text](case.png)
 
 ## 📄 License
 MIT © 2025
