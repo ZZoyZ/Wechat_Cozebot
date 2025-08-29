@@ -37,9 +37,13 @@ python bot.py
 ## 📝 使用规范
 
 需在Coze平台创建并发布智能体并勾选API发布
+
 Coze智能体生图工作流需选择输出为URL链接
+
 群内发送以 / 开头的消息才会触发
+
 AI 回答中的 第一张图片 URL 会被自动下载并发送。
+
 Coze平台链接：https://www.coze.cn/home
 
 ---
